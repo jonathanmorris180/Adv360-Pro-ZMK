@@ -17,13 +17,6 @@
             bindings = <&kp RET>;
         };
 
-        em_dash: em_dash {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp LEFT_ALT &kp MINUS>;
-            label = "EM_DASH";
-        };
-
         #endif
 
         hm: homerow_mods {
@@ -38,6 +31,12 @@
     };
 
     macros {
+        em_dash: em_dash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_SHIFT &kp LEFT_ALT &kp MINUS>;
+            label = "EM_DASH";
+        };
     };
 
     keymap {
