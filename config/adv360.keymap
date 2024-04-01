@@ -62,7 +62,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &none                                                                                           &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &none       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                 &kp C_MUTE           &trans                                              &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &kp DELETE  &trans             &trans               &trans                &trans                &trans          &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans          &kp DELETE  &kp ENTER          &trans               &trans                &trans                &trans          &trans  &trans  &trans   &trans   &trans
             >;
         };
 
